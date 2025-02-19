@@ -1,8 +1,8 @@
 
 
-# AgroBrain
+# AgroTech
 
-AgroBrain is a comprehensive platform designed to provide farmers with essential tools and information to optimize their farming practices. The platform offers a variety of features including weather forecasting, soil analysis, crop management, market analysis, and more. This README document provides an overview of all the features and functionalities of the AgroBrain website.
+AgroTech is a comprehensive platform designed to provide farmers with essential tools and information to optimize their farming practices. The platform offers a variety of features including weather forecasting, soil analysis, crop management, market analysis, and more. This README document provides an overview of all the features and functionalities of the AgroTech website.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ The dashboard provides an overview of the latest weather forecasts and top news 
 
 ### Weather Forecasting
 
-AgroBrain offers accurate and timely weather forecasts to help farmers plan their activities. The weather data includes temperature, humidity, wind speed, and precipitation forecasts.
+AgroTech offers accurate and timely weather forecasts to help farmers plan their activities. The weather data includes temperature, humidity, wind speed, and precipitation forecasts.
 
 ### Soil Analysis
 
@@ -40,7 +40,7 @@ The soil analysis feature provides detailed information about soil moisture, tem
 
 ### Crop Management
 
-AgroBrain offers tools and advice for effective crop management to maximize yield and quality. This includes information on crop types, planting schedules, and pest management.
+AgroTech offers tools and advice for effective crop management to maximize yield and quality. This includes information on crop types, planting schedules, and pest management.
 
 ### Market Analysis
 
@@ -52,7 +52,7 @@ The farm mapping feature allows farmers to visualize their fields using satellit
 
 ### Tools
 
-AgroBrain offers a variety of tools including soil analysis, crop management, and market analysis tools. These tools help farmers make informed decisions about their farming practices.
+AgroTecj offers a variety of tools including soil analysis, crop management, and market analysis tools. These tools help farmers make informed decisions about their farming practices.
 
 ### Resources
 
@@ -68,7 +68,7 @@ The trade section allows farmers to connect with buyers and sellers to trade the
 
 ### User Management
 
-AgroBrain includes features for user registration, login, and profile management. Users can update their personal information and manage their account settings.
+AgroTech includes features for user registration, login, and profile management. Users can update their personal information and manage their account settings.
 
 ## Unique Selling Points (USPs)
 
@@ -80,81 +80,4 @@ AgroBrain includes features for user registration, login, and profile management
 - **Educational Resources**: Provides access to a variety of articles, guides, and other educational materials related to agriculture.
 - **Latest News**: Aggregates the latest news articles related to agriculture from various sources.
 - **Trade Platform**: Connects farmers with buyers and sellers to trade their produce.
-
-## Installation
-
-To install and run AgroBrain locally, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/agrobrain.git
-   cd agrobrain
-   ```
-
-2. **Create a virtual environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run database migrations**:
-   ```bash
-   python manage.py migrate
-   ```
-
-5. **Create a superuser**:
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-6. **Run the development server**:
-   ```bash
-   python manage.py runserver
-   ```
-
-7. **Access the website**:
-   Open your web browser and go to `http://127.0.0.1:8000`.
-
-## Usage
-
-Once the website is up and running, you can explore the various features through the navigation menu. Here are some key sections to explore:
-
-- **Dashboard**: Get an overview of the latest weather forecasts and top news articles.
-- **Weather**: Access detailed weather forecasts for your farm location.
-- **Services**: Explore various tools and services offered by AgroBrain.
-- **Tools**: Access tools for soil analysis, crop management, and market analysis.
-- **Resources**: Browse educational materials related to agriculture.
-- **News**: Stay updated with the latest news articles related to agriculture.
-- **Market**: Get insights into current market trends and prices for various crops.
-- **Trade**: Connect with buyers and sellers to trade your produce.
-- **Details**: Visualize your fields using satellite imagery and analyze vegetation indices.
-
-## Contributing
-
-We welcome contributions to AgroBrain! If you would like to contribute, please follow these steps:
-
-1. **Fork the repository** on GitHub.
-2. **Clone your fork** locally:
-   ```bash
-   git clone https://github.com/yourusername/agrobrain.git
-   cd agrobrain
-   ```
-3. **Create a new branch** for your feature or bugfix:
-   ```bash
-   git checkout -b feature-or-bugfix-name
-   ```
-4. **Make your changes** and commit them:
-   ```bash
-   git commit -m "Description of your changes"
-   ```
-5. **Push your changes** to your fork:
-   ```bash
-   git push origin feature-or-bugfix-name
-   ```
-6. **Create a pull request** on GitHub.
 
