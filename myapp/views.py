@@ -124,7 +124,7 @@ def polygon_list(request):
     return render(request, 'myapp/polygon_list.html', {'polygons': polygons})
 @login_required
 def news(request):
-    url="https://newsapi.org/v2/everything?q=farmer&from=2025-02-20&sortBy=popularity&apiKey=ffe32e11bcce44b8b1877ca0af6cbf35"
+    url="https://newsapi.org/v2/everything?q=farmer&from=2025-05-25&sortBy=popularity&apiKey=ffe32e11bcce44b8b1877ca0af6cbf35"
     
     farmer_news = requests.get(url).json()
     
